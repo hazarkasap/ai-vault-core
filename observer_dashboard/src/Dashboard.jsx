@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export function Dashboard({ apiBase = "http://127.0.0.1:8765" }) {
+export function Dashboard({ apiBase = "" }) {
   const [overview, setOverview] = useState(null);
   const [error, setError] = useState("");
   useEffect(() => {
