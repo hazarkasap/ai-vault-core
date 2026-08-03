@@ -67,4 +67,3 @@ class EventStore:
             if event.event_id in seen:
                 raise ValueError("duplicate event_id")
             seen.add(event.event_id)
-

@@ -22,4 +22,3 @@ def parse_contract(data: dict[str, Any]) -> AgentContract:
     if not objective or not changes or any(not item for item in changes):
         raise ValueError("objective and proposed_changes are required")
     return AgentContract(task_id, role, objective, changes, evidence)
-

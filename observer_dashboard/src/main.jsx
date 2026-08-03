@@ -4,4 +4,3 @@ import { Dashboard } from "./Dashboard.jsx";
 import "./style.css";
 
 createRoot(document.getElementById("root")).render(<Dashboard />);
-

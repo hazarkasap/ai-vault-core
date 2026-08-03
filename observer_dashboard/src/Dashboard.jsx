@@ -23,4 +23,3 @@ export function Dashboard({ apiBase = "http://127.0.0.1:8765" }) {
     <section className="panel"><h2>Architecture boundary</h2><p>Human approval is required. No autonomous model provider is bundled.</p></section>
   </main>;
 }
-

@@ -6,4 +6,3 @@
 - Patch events do not execute or alter source code.
 - The dashboard is a read-only overview, not an operations console.
 - Authentication and public deployment are intentionally out of scope.
-

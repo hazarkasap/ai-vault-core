@@ -14,4 +14,3 @@ def build_overview(events: list) -> dict:
 def timeline(events: list) -> list[dict]:
     return [{"clock": event.logical_clock, "event_type": event.event_type,
              "created_at": event.created_at} for event in events]
-

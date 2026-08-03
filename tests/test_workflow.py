@@ -52,4 +52,3 @@ def test_contract_rejects_unknown_fields() -> None:
     data.pop("status")
     with pytest.raises(ValueError, match="fields"):
         parse_contract(data)
-

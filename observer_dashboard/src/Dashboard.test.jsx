@@ -13,4 +13,3 @@ test("renders an accurate synthetic workflow summary", async () => {
   expect(await screen.findByText("Synthetic goal")).toBeTruthy();
   expect(screen.getByText(/No autonomous model provider/)).toBeTruthy();
 });
-

@@ -16,4 +16,3 @@ The synthetic golden path is:
 10. `iteration_completed`
 
 Replay folds this sequence into a deterministic projection. The projection hash covers the canonical state, not timestamps or event identifiers.
-

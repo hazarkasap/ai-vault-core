@@ -15,4 +15,3 @@ def replay(events: list) -> dict:
     canonical = json.dumps(projection, sort_keys=True, separators=(",", ":"))
     projection["replay_hash"] = hashlib.sha256(canonical.encode()).hexdigest()
     return projection
-

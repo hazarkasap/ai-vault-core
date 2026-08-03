@@ -28,4 +28,3 @@ async def test_websocket_sends_snapshot(tmp_path: Path) -> None:
         assert message["type"] == "snapshot"
         assert message["data"]["event_count"] == 10
         await socket.close()
-

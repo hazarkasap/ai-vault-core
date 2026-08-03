@@ -77,4 +77,3 @@ This is a source-code showcase for local use, not a production service. It has o
 ## Data and licensing
 
 All bundled demo material is synthetic and was written for this showcase. No private project events, prompts, transcripts, memory, operational state, or user data are included. Dependencies retain their own licenses. This repository currently has **no project license**, so no permission to copy, modify, or redistribute the project code is granted by default.
-

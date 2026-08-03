@@ -13,4 +13,3 @@ The repository contains synthetic project metadata only. Runtime events are igno
 - Identifiers and event types are allowlisted.
 
 This design is not production hardened. A hosted multi-user version would require authentication, authorization, transport security, rate limiting, durable concurrency controls, audit-retention policy, and deployment-specific threat modeling.
-

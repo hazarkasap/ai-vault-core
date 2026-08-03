@@ -22,4 +22,3 @@ An external model could produce a contract, but no provider is included. Contrac
 ## Storage
 
 The CLI writes demo runtime events beneath `.runtime/`, which is ignored. Bundled `demo/` files are declarative, synthetic metadata rather than execution history.
-

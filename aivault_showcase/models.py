@@ -37,4 +37,3 @@ class AgentContract:
         data["proposed_changes"] = list(self.proposed_changes)
         data["evidence"] = list(self.evidence)
         return data
-
