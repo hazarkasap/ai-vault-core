@@ -3,7 +3,7 @@ name = "ai-vault-core"
 version = "0.1.0"
 description = "Event-driven AI workflow, approval, replay, and observability core"
 requires-python = ">=3.12,<3.15"
-dependencies = ["aiohttp==3.12.15"]
+dependencies = ["aiohttp==3.14.3"]
 
 [project.optional-dependencies]
 dev = ["pytest==8.4.1", "pytest-asyncio==1.1.0", "ruff==0.12.7"]
