@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "items": [{
+    "path": "demo_project.json",
+    "origin": "Written specifically for this repository",
+    "classification": "synthetic",
+    "personal_data": false
+  }]
+}
+

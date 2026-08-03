@@ -1,0 +1,8 @@
+{
+  "project_id": "demo_project",
+  "title": "Synthetic Note Tool Workflow",
+  "purpose": "Demonstrate a human-approved event workflow without private project context.",
+  "synthetic": true,
+  "contains_real_user_data": false
+}
+
