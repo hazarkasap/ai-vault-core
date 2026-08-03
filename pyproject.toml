@@ -1,7 +1,7 @@
 [project]
-name = "ai-vault-showcase"
+name = "ai-vault-core"
 version = "0.1.0"
-description = "Local event-driven workflow and observability showcase"
+description = "Event-driven AI workflow, approval, replay, and observability core"
 requires-python = ">=3.12,<3.15"
 dependencies = ["aiohttp==3.12.15"]
 

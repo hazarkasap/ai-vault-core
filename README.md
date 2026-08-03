@@ -1,6 +1,6 @@
-# AI Vault Showcase
+# AI Vault Core
 
-AI-assisted workflows become difficult to trust when decisions, approvals, and state changes disappear inside an opaque execution loop. AI Vault Showcase explores a different approach: every workflow transition is represented as a validated event, risky progress requires explicit human approval, and current state can be rebuilt deterministically.
+AI-assisted workflows become difficult to trust when decisions, approvals, and state changes disappear inside an opaque execution loop. AI Vault Core explores a different approach: every workflow transition is represented as a validated event, risky progress requires explicit human approval, and current state can be rebuilt deterministically.
 
 The result is a local, educational architecture showcase combining a Python `aiohttp` API, an append-only event model, and a React observer dashboard. One intentionally synthetic project makes the complete workflow inspectable without exposing operational data.
 
@@ -87,6 +87,10 @@ scripts/scan_repository.sh
 ```
 
 GitHub Actions repeats backend lint/tests, dashboard tests/build, and generic secret scanning on pushes and pull requests. The synthetic workflow is covered from event creation through replay and observer responses.
+
+## Reviewer takeaway
+
+AI Vault Core demonstrates event-driven architecture, explicit trust boundaries, deterministic state reconstruction, and observability around agent-oriented workflows. The emphasis is not a model-provider demo; it is the software-engineering discipline required to make AI-assisted systems reviewable and controllable.
 
 ## Project status and limitations
 
